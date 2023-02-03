@@ -31,8 +31,7 @@ function del() {
 }
 function update() {
     new_element = prompt("Enter the Element you want to update")
-    old_element = prompt("Enter the Element you want to change")
-    update_index = array.indexOf(old_element)
+    update_index = prompt("Enter the Element number to change")
     array[update_index] = new_element
     console.log("Your given index value is updated: " + array)
     if (update_index == 0) {
